@@ -14,12 +14,13 @@ header {
 .half {
     display: flex;
     text-align: center;
+    align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
 }
 
 .half h3 {
-    font-size: 18px;
+    font-size: 30px;
 }
 
 .second h2 {
@@ -326,14 +327,43 @@ article {
 .gallery{
     color: white;
     text-align: center;
+    margin-bottom: 20px;
 }
 .gallery h2{
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
+
+.map{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.map-sub h1{
+    font-size: 30px;
+    color: white;
+}
+.foot{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.foot h4{
+    font-size: 20px;
+    padding-left: 140px;
+}
+.foot h6{
+    font-size: 15px;
+    padding-right: 140px;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -404,11 +434,17 @@ img {vertical-align: middle;}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4;
+} 
+  to {
+    opacity: 1;
+}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.text {
+    font-size: 11px;
+}
 }
