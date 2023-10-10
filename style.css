@@ -595,3 +595,156 @@ img {
     font-size: 11px;
 }
 }
+
+
+@media screen and (max-width: 500px) {
+/* Header section */
+    .half h3{
+        font-size: 30px;
+    }
+    .half{
+        padding: 10px;
+        flex-direction: column;
+    }
+    li a {
+        margin: 0.5em;
+    }
+    .half button{
+        width: 60px;
+        height: 20px;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .half nav, ul{
+        align-items: center;
+    }
+    /* Header ends */
+    
+    /* section home begins */
+    .home{
+        flex-direction: column;
+    }
+    .home h2{
+        font-size: 25px;
+    }
+    .home img{
+        height: 300px;
+        width: 270px;
+    }
+    .button{
+        width: 140px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .button:hover span{
+        padding-right: 20px;
+    }
+    /* section ends */
+
+    /* service starts */
+    .service{
+        flex-direction: column;
+        height: 80vh;
+        padding: 20px;
+    }
+    /* service ends */
+
+    /* team, pics, container starts */
+    .team{
+        margin-left: 20px;
+    }
+    .team h1{
+        font-size: 25px;
+    }
+
+    .pics{
+        margin-left: 0;
+        gap: 8px;
+    }
+    .container{
+        width: 210px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .list{
+        gap: 70px;
+    }
+    /* team, pics, container ends */
+
+    /* client starts */
+    .client{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 270px;
+        margin-right: 0;
+    }
+    /* client ends */
+
+    /* gallery starts */
+    .slideshow-container img{
+        width: 100px;
+        height: 300px;
+    }
+    /* gallery ends */
+
+    /* map starts */
+    .map{
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .map-sub h1{
+        font-size: 25px;
+    }
+    .map-lead img{
+        width: 380px;
+        height: 250px;
+    }
+    /* map ends */
+
+    .deck hr{
+        width: 30px;
+    }
+
+    /* foot starts */
+    .foot{
+        height: 20vh;
+        background-color: dodgerblue;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .foot h4{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .foot h6{
+        font-size: 13px;
+        padding-right: 10px;
+    }
+    #text{
+        font-size: 24px;
+    }
+
+    /* contact page starts */
+    .log{
+        width: 300px;
+        margin: 50px;
+    }
+    .pin{
+        padding: 0;
+    }
+    .pin label{
+        font-size: 16px;
+    }
+    .pin input{
+        width: 150px;
+        height: 26px;
+    }
+    .pin button{
+        margin-top: 10px;
+    }
+}
